@@ -1,0 +1,36 @@
+{
+ "env": {
+ "browser": true,
+ "es6": true,
+ "node": true
+ },
+ "parserOptions": {
+ "sourceType": "module"
+ },
+ "rules": {
+ "no-cond-assign": [2, "always"], //if, while等条件中不允许使用“=”
+ "no-constant-condition": 2,//禁止在条件中使用常量表达式
+ "no-debugger": 2, // 程序中不能出现debugger
+ "no-dupe-args": 2, // 函数的参数名称不能重复
+ "no-dupe-keys": 2, // 对象的属性名称不能重复
+ "no-duplicate-case": 2, // switch的case不能重复
+ "no-func-assign": 2,//禁止对 function 声明重新赋值
+ "no-obj-calls": 2,//禁止将全局对象当作函数进行调用
+ "no-regex-spaces": 2,//禁止正则表达式字面量中出现多个空格
+ "no-sparse-arrays": 2,//禁用稀疏数组
+ "no-unexpected-multiline": 2,//禁止使用令人困惑的多行表达式
+ "no-unreachable": 2,//禁止在 return、throw、continue 和 break 语句后出现不可达代码
+ "use-isnan": 2,//要求调用 isNaN()检查 NaN
+ "valid-typeof": 2,//强制 typeof 表达式与有效的字符串进行比较
+ "eqeqeq": [2, "always"],//要求使用 === 和 !==
+ "no-caller": 2,//禁用 caller 或 callee
+ "no-eval": 2,//禁用 eval()
+ "no-redeclare": 0,//禁止重新声明变量
+ "no-undef": 2,//禁用未声明的变量
+ "no-unused-vars": 1,//禁止未使用过的变量
+ "no-use-before-define":0,//禁止定义前使用
+ "comma-dangle": [1, "never"],//要求或禁止使用拖尾逗号
+ "no-const-assign": 2,//不允许改变用const声明的变量
+ "no-dupe-class-members": 2//不允许类成员中有重复的名称
+ }
+}
